@@ -163,8 +163,12 @@ You should see an interactive API documentation page showing your API endpoints,
 
 # API Documentation
 
-https://github.com/codx-ak/Codemonk/blob/main/API%20Doc.md
+* Get List of Books : http://127.0.0.1:8000/book/api
 
-# Screenshots
+* Get single Book by ID : http://127.0.0.1:8000/book/api/:id
 
-https://github.com/codx-ak/Codemonk/tree/main/Screenshots
+* update book by ID (PUT method) : http://127.0.0.1:8000/book/api/:id/
+
+* update book by ID (PATCH method) : http://127.0.0.1:8000/book/api/:id/
+
+* Delete book with ID : http://127.0.0.1:8000/book/api/:id/
